@@ -14,6 +14,7 @@ namespace HelloWorld
             Console.WriteLine("Hello World");
             MyClass x = new MyClass(); // we need it
             ClassTwo xyz = new ClassTwo();
+            Console.WriteLine("Second line");
         }
     }
 }
