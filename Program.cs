@@ -16,6 +16,7 @@ namespace HelloWorld
             MyClass x = new MyClass(); // we need it
             ClassTwo xyz = new ClassTwo();
             Console.WriteLine("Second line");
+            x.printBone();
         }
 
         private static void PrintMessage(int a)

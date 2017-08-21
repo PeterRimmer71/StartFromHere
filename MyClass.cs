@@ -9,5 +9,10 @@ namespace HelloWorld
     class MyClass
     {
         public string Name { get; set; }
+
+        public void printBone()
+        {
+            Console.WriteLine("$==$");
+        }
     }
 }
