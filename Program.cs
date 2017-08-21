@@ -11,9 +11,15 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             //test 2
-            Console.WriteLine("Hello World");
+            int a = 10; // integer variable
+            PrintMessage(a);
             MyClass x = new MyClass(); // we need it
             ClassTwo xyz = new ClassTwo();
+        }
+
+        private static void PrintMessage(int a)
+        {
+            Console.WriteLine("Hello World, " + a); // print message to screen
         }
     }
 }
