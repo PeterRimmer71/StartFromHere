@@ -12,6 +12,7 @@ namespace HelloWorld
         {
             //test
             Console.WriteLine("Hello World");
+            MyClass x = new MyClass();
         }
     }
 }
