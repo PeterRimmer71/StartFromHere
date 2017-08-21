@@ -12,6 +12,8 @@ namespace HelloWorld
         {
             //test 2
             Console.WriteLine("Hello World");
+            MyClass x = new MyClass(); // we need it
+            ClassTwo xyz = new ClassTwo();
         }
     }
 }
