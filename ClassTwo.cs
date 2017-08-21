@@ -8,7 +8,7 @@ namespace HelloWorld
 {
     class ClassTwo
     {
-        private string nameTwo { get; set; }
+        private string NameTwo { get; set; }
 
         public void PrintIt() => Console.WriteLine("iT");
     }
