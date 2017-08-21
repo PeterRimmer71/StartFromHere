@@ -16,7 +16,7 @@ namespace HelloWorld
             MyClass x = new MyClass(); // we need it
             ClassTwo xyz = new ClassTwo();
             Console.WriteLine("Second line");
-            x.printBone();    //adding an extra comment to the develop branch while adding features on Feature-X branch!!!
+            x.PrintBone();    //adding an extra comment to the develop branch while adding features on Feature-X branch!!!
             xyz.PrintIt();
         }
 
