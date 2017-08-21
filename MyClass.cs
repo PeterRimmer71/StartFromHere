@@ -10,7 +10,7 @@ namespace HelloWorld
     {
         public string Name { get; set; }
 
-        public void printBone()
+        public void PrintBone()
         {
             Console.WriteLine("$==$");
         }
