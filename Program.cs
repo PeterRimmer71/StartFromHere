@@ -20,6 +20,13 @@ namespace HelloWorld
             Console.WriteLine("Factorial of, {0} is, {1}",a,x.Factorial(a)); // display result
             xyz.PrintIt();    // comment added to the herewego branch
             Console.WriteLine("Random number was, {0}", xyz.Stuff());
+            
+            //
+
+            ThirdDemension ThreeD = new ThirdDemension();
+            ThreeD.X = 9;
+            Console.WriteLine(ThreeD.X);
+
             Console.ReadKey();
         }
 
