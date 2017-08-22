@@ -20,12 +20,30 @@ namespace HelloWorld
             Console.WriteLine("Factorial of, {0} is, {1}",a,x.Factorial(a)); // display result
             xyz.PrintIt();    // comment added to the herewego branch
             Console.WriteLine("Random number was, {0}", xyz.Stuff());
+            Steps(8);
             Console.ReadKey();
         }
 
         private static void PrintMessage(int a)
         {
             Console.WriteLine("Hello World, " + a); // print message to screen
+        }
+
+        public static void Steps(int x)
+        {
+            if (x <= 0)
+                Console.WriteLine("$----$");
+            else
+            {
+                for(int i=0; i<x; i++)
+                {
+                    for(int j=0; j<i; j++)
+                    {
+                        Console.Write("X");
+                    }
+                    Console.WriteLine();
+                }
+            }
         }
     }
 }
