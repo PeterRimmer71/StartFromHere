@@ -20,6 +20,7 @@ namespace HelloWorld
             x.Factorial(5);
             xyz.PrintIt();    // comment added to the herewego branch
             Console.WriteLine("Random number was, {0}", xyz.Stuff());
+            Console.ReadKey();
         }
 
         private static void PrintMessage(int a)
