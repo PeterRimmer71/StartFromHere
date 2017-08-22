@@ -14,5 +14,17 @@ namespace HelloWorld
         {
             Console.WriteLine("$==$");
         }
+
+        public int Factorial(int a)
+        {
+            if (a == 1)
+            {
+                return 1;
+            }
+            else
+            {
+                return a * Factorial(a - 1);
+            }
+        }
     }
 }

@@ -17,6 +17,7 @@ namespace HelloWorld
             ClassTwo xyz = new ClassTwo();  // change to the development branch
             Console.WriteLine("Second line");
             x.PrintBone();    //adding an extra comment to the develop branch while adding features on Feature-X branch!!!
+            x.Factorial(5);
             xyz.PrintIt();    // comment added to the herewego branch
             Console.WriteLine("Random number was, {0}", xyz.Stuff());
         }
