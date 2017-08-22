@@ -11,5 +11,15 @@ namespace HelloWorld
         private string NameTwo { get; set; }
 
         public void PrintIt() => Console.WriteLine("iT");
+
+        public string Stuff()
+        {
+            string x = "SMALL";
+            if (new Random().Next(0,10) > 4)
+            {
+                x = "BIG";
+            }
+            return x;
+        }
     }
 }

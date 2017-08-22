@@ -18,6 +18,7 @@ namespace HelloWorld
             Console.WriteLine("Second line");
             x.PrintBone();    //adding an extra comment to the develop branch while adding features on Feature-X branch!!!
             xyz.PrintIt();    // comment added to the herewego branch
+            Console.WriteLine("Random number was, {0}", xyz.Stuff());
         }
 
         private static void PrintMessage(int a)
